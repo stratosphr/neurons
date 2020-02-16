@@ -47,6 +47,7 @@ export default class NeuralNet {
                 }).flat()
             ).flat()
         ).flat()
+        // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
         // @ts-ignore
         cytoscape({
             container,

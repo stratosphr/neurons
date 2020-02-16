@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div id="net" style="width: 95vw; height: 95vh; border: solid black thin; margin: auto">
+
+    </div>
   </div>
 </template>
 
@@ -11,7 +14,7 @@
 
 		mounted() {
 			console.clear()
-      NeuralNet.main()
+			NeuralNet.main()
 		}
 
 	}

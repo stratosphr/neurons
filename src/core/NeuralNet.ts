@@ -47,6 +47,7 @@ export default class NeuralNet {
                 }).flat()
             ).flat()
         ).flat()
+        // @ts-ignore
         cytoscape({
             container,
             layout: {
@@ -84,6 +85,7 @@ export default class NeuralNet {
                         'text-background-shape': 'roundrectangle',
                         'text-border-color': '#000',
                         'text-background-padding': '2px',
+                        'text-rotation': 'autorotate',
                         label: 'data(weight)'
                     }
                 }

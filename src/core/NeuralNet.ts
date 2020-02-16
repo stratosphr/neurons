@@ -64,6 +64,7 @@ export default class NeuralNet {
                     'style': {
                         'text-valign': 'center',
                         'text-halign': 'center',
+                        'font-weight': 'bold',
                         backgroundColor: '#9CF',
                         width: '45px',
                         height: '45px',
@@ -76,7 +77,7 @@ export default class NeuralNet {
                         width: 1,
                         'curve-style': 'unbundled-bezier',
                         'target-arrow-shape': 'triangle',
-                        'arrow-scale': 1.5,
+                        'arrow-scale': 1,
                         'line-color': '#9CF',
                         'target-arrow-color': '#9CF',
                         'text-background-opacity': 1,
@@ -85,7 +86,7 @@ export default class NeuralNet {
                         'font-weight': 'bold',
                         'text-background-shape': 'roundrectangle',
                         'text-border-color': '#000',
-                        'text-background-padding': '2px',
+                        'text-background-padding': '5px',
                         'text-rotation': 'autorotate',
                         label: 'data(weight)'
                     }
